@@ -1,0 +1,66 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FoodyApps" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/actionBarBackgroundColor</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/action_mode_style</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="actionModeCloseButtonStyle">@style/myclosebutton</item>
+        <item name="bottomNavigationStyle">@style/CustomBottomNavViewStyle</item>
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/colorPrimary</item>
+    </style>
+
+    <style name="Theme.FoodyApps" parent="Base.Theme.FoodyApps" />
+
+
+    <style name="myclosebutton" parent="Widget.AppCompat.Light.ActionButton.CloseMode">
+        <item name="android:tint">@color/white</item>
+    </style>
+
+    <style name="action_mode_style" parent="@style/Widget.Material3.ActionMode">
+        <item name="background">@color/actionModeBarBackground</item>
+        <item name="titleTextStyle">@style/ActionModeTitleTextStyle</item>
+    </style>
+
+    <style name="ActionModeTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionMode.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="CustomChipStyle" parent="Widget.Material3.Chip.Filter">
+
+        <item name="chipBackgroundColor">@color/chip_background_color</item>
+        <item name="android:textColor">@color/chip_text_color</item>
+        <item name="checkedIconTint">@color/chip_text_color</item>
+
+    </style>
+    
+    <style name="DetailsActivityStyle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+    </style>
+
+    <style name="CustomTabLayoutStyle" parent="Widget.Design.TabLayout">
+        <item name="background">@color/colorPrimary</item>
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+    </style>
+
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="CustomBottomNavViewStyle" parent="Widget.Material3.BottomNavigationView">
+        <item name="backgroundTint">@color/bottomNavBackground</item>
+        <item name="itemIconTint">@color/bottom_nav_view_item_color</item>
+        <item name="itemTextColor">@color/bottom_nav_view_item_color</item>
+    </style>
+
+</resources>
