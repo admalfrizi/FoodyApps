@@ -11,6 +11,8 @@ My Mobile Application Project for Portofolio Purpose, Created with following tec
 - RETROFIT2
 - DataStore
 
+Preview Apps in this <a href="https://drive.google.com/file/d/1HahygIzOle_WoM4ZzUKrledxmZBbD7F6/view?usp=sharing">Link/a>.
+
 ## Screenshot UI
 
 Home Page | Favorite Recipes Page
