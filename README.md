@@ -17,9 +17,9 @@ Home Page | Favorite Recipes Page
 
 FilterMenu Screen | ActionMode Favorite Recipes Page
 --- | --- 
-![](https://github.com/admalfrizi/FoodyApps/blob/master/screenshot/Screenshot_20230810_162347_FoodyApps.jpg) ![](https://github.com/admalfrizi/FoodyApps/blob/master/screenshot/Screenshot_20230810_162508_FoodyApps.jpg)
+![](https://github.com/admalfrizi/FoodyApps/blob/master/screenshot/Screenshot_20230810_162347_FoodyApps.jpg) | ![](https://github.com/admalfrizi/FoodyApps/blob/master/screenshot/Screenshot_20230810_162508_FoodyApps.jpg)
 
 Search Recipes Screen | Result Search Recipes Screen
 --- | --- 
-![](https://github.com/admalfrizi/FoodyApps/blob/master/screenshot/Screenshot_20230810_162423_FoodyApps.jpg) ![](https://github.com/admalfrizi/FoodyApps/blob/master/screenshot/Screenshot_20230810_162438_FoodyApps.jpg)
+![](https://github.com/admalfrizi/FoodyApps/blob/master/screenshot/Screenshot_20230810_162423_FoodyApps.jpg) | ![](https://github.com/admalfrizi/FoodyApps/blob/master/screenshot/Screenshot_20230810_162438_FoodyApps.jpg)
 
