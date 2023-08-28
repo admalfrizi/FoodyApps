@@ -13,5 +13,5 @@ My Mobile Application Project for Portofolio Purpose, Created with following tec
 
 Home Page | Favorite Page
 --- | --- 
-![](https://github.com/admalfrizi/FoodyApps/blob/master/screenshot/Screenshot_20230810_162335_FoodyApps.jpg) | ![](https://github.com/admalfrizi/gocar_apps_like_flutter/blob/master/screenshots/Screenshot_20230401_163407.jpg) 
+![](https://github.com/admalfrizi/FoodyApps/blob/master/screenshot/Screenshot_20230810_162335_FoodyApps.jpg) | ![]((https://github.com/admalfrizi/FoodyApps/blob/master/screenshot/Screenshot_20230810_162457_FoodyApps.jpg) 
 
