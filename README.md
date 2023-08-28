@@ -8,3 +8,10 @@ My Mobile Application Project for Portofolio Purpose, Created with following tec
 - Dagger Hilt
 - RETROFIT2
 - DataStore
+
+## Screenshot UI
+
+Home Page | Favorite Page
+--- | --- 
+![](https://github.com/admalfrizi/FoodyApps/blob/master/screenshot/Screenshot_20230810_162335_FoodyApps.jpg) | ![](https://github.com/admalfrizi/gocar_apps_like_flutter/blob/master/screenshots/Screenshot_20230401_163407.jpg) 
+
