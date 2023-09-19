@@ -172,6 +172,8 @@ class RecipesFragment : Fragment(), SearchView.OnQueryTextListener {
                 is NetworkResult.Loading -> {
                     showShimmerEffect()
                 }
+
+                else -> {}
             }
         }
     }
@@ -202,6 +204,7 @@ class RecipesFragment : Fragment(), SearchView.OnQueryTextListener {
                     showShimmerEffect()
                 }
 
+                else -> {}
             }
         }
     }

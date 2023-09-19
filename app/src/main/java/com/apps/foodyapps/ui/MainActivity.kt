@@ -1,12 +1,11 @@
 package com.apps.foodyapps.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.navigation.NavController
-import androidx.navigation.Navigation
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.NavigationUI.setupWithNavController
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.apps.foodyapps.R
@@ -29,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(binding.toolbar)
         binding.toolbar.setTitleTextColor(ContextCompat.getColor(this,R.color.white))
 
-        navController = Navigation.findNavController(this, R.id.fragmentContainerView)
+        navController = supportFragmentManager.findFragmentById(R.id.fragmentContainerView)!!.findNavController()
         val appBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.recipesFragment,
